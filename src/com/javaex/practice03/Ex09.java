@@ -5,9 +5,12 @@ public class Ex09 {
 	public static void main(String[] args) {
 		//숫자 출력하기
 		int x, y;
+		int count = 0;
+
+		
 		for(x = 1 ; x<=10; x++) {
-			for(y = 1; y<=10; y++) {	
-				System.out.print(x);
+			for(y = 1; y<=10; y++) {
+				System.out.print((count = count +1) + "\t");
 				if(y%10==0) {
 					System.out.println("\n");
 				}
